@@ -1,0 +1,15 @@
+# Example YOLOv8 dataset config for driver drowsiness monitoring
+# Copy this file, update the absolute/relative paths, and adjust class names/count.
+
+# Paths to your images/labels in YOLO format
+path: /absolute/path/to/dataset
+train: images/train
+val: images/val
+# test: images/test
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: drowsy
